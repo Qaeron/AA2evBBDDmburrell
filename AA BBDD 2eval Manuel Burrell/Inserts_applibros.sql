@@ -1,0 +1,46 @@
+--INSERTS usuarios
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('1', 'Charles', 'Queensworth', 'cqueensworth@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('2', 'Kiyori', 'Nattoro', 'knattoro@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('3', 'Daub', 'Swanna', 'dswanna@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('4', 'Juan', 'Garcia Orondo', 'jgorondo@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('5', 'Alejandra', 'Rubio Herrero', 'arherrero@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('6', 'John', 'Carter', 'jcarter@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('7', 'Usher', 'Aussie', 'uassie@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('8', 'Liam', 'Washington', 'lwashington@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('9', 'Olivia', 'Autumn', 'oautumn@gmail.no', 'qwerty');
+INSERT INTO USERS (id_user, user_name, user_surname, email, user_password) VALUES ('10', 'Anna', 'Barikovich', 'abarikovich@gmail.no', 'qwerty');
+
+--INSERTS autores
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('1', 'Maya', 'Angelou', '04/04/1928', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('2', 'Noam', 'Chomsky', '07/12/1928', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('3', 'Kurt', 'Vonnegut', '11/11/1922', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('4', 'Margaret', 'Atwood', '18/11/1939', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('5', 'David', 'Foster Wallace', '21/02/1962', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('6', 'Richard', 'Dawkins', '26/03/1941', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('7', 'George', 'R. R. Martin', '20/09/1948', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('8', 'Umberto', 'Eco', '05/01/1932', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('9', 'Isabel', 'Allende', '02/08/1942', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('10', 'Carlos', 'Ruiz Zafon', '25/09/1964', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO AUTHORS (id_author, author_name, author_surname, author_birthdate, author_description) VALUES ('11', 'Almudena', 'Grandes', '07/05/1960', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+
+--INSERTS libros
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (1, 3, 'Slaughterhouse-Five', '31/03/1969', 192, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (2, 4, 'Oryx and Crake', '01/05/2003', 400, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (3, 4, 'The Year of the Flood', '07/09/2009', 448, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (4, 10, 'La Sombra del Viento', '01/01/2001', 400, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (5, 8, 'El Nombre de la Rosa', '01/01/1980', 534, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (6, 9, 'Eva Luna', '01/01/1987', 241, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (7, 11, 'Malena es un nombre de tango', '01/01/1994', 552, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (8, 7, 'A Clash of Kings', '01/01/1998', 708, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO BOOKS (id_book, id_author, title, publish_date, page_num, book_description) VALUES (9, 2, 'Manufacturing Consent', '01/01/1988', 480, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+
+--INSERTS reseñas
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (1, 2, 4, '3', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (2, 2, 2, '1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (3, 6, 1, '9', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (4, 9, 9, '7', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (5, 4, 2, '5', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (6, 2, 6, '4', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (7, 1, 6, '5', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (8, 10, 8, '8', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+INSERT INTO REVIEWS (id_review, id_book, id_user, review_rating, review_content) VALUES (9, 10, 2, '9', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
